@@ -3,22 +3,22 @@
 
 
     <sitemap>
-        <loc>http://carlosan.me/post-sitemap.xml</loc>
+        <loc>https://carlosan.me/post-sitemap.xml</loc>
         <lastmod>2019-03-27T16:03:21.305Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://carlosan.me/page-sitemap.xml</loc>
+        <loc>https://carlosan.me/page-sitemap.xml</loc>
         <lastmod>2019-03-27T16:05:36.527Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://carlosan.me/category-sitemap.xml</loc>
+        <loc>https://carlosan.me/category-sitemap.xml</loc>
         <lastmod>2019-03-27T16:03:01.356Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://carlosan.me/tag-sitemap.xml</loc>
+        <loc>https://carlosan.me/tag-sitemap.xml</loc>
         <lastmod>2019-03-27T16:03:01.356Z</lastmod>
     </sitemap>
 
