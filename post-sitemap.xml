@@ -8,8 +8,16 @@
     </url>
 
     <url>
+        <loc>https://carlosan.me/2019/11/26/Leetcode-Reverse-integer/</loc>
+        <lastmod>2019-11-26T06:40:32.068Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://carlosan.me/2019/11/25/Leetcode-Add-two-numbers/</loc>
-        <lastmod>2019-11-25T11:57:23.577Z</lastmod>
+        <lastmod>2019-11-26T06:19:52.109Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

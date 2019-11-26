@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Leetcode Problem 7 - Reverse Integer]]></title>
+    <url>%2F2019%2F11%2F26%2FLeetcode-Reverse-integer%2F</url>
+    <content type="text"><![CDATA[Problemhttps://leetcode.com/problems/reverse-integer/ Python Code 1234class Solution: def reverse(self, x: int) -&gt; int: r = int(str(abs(x))[::-1]) return (-1 * r if x &lt; 0 else r) if r.bit_length() &lt; 32 else 0 Takeaway nested if for simplifying the code no overflow issue for python Java Code 1234567891011121314 class Solution &#123; public int reverse(int x) &#123; int rev = 0; while(x != 0)&#123; int pop = x % 10; x /= 10; if (rev &gt; Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 &amp;&amp; pop &gt; 7)) return 0; if (rev &lt; Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 &amp;&amp; pop &lt; -8)) return 0; int temp = rev * 10 + pop; rev = temp; &#125; return rev; &#125;&#125; Takeaway Integer.MAX_VALUE $2^31 - 1 = 2,147,483,647$ or $-2^31 = -2,147,483,648$]]></content>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Leetcode Problem 2 - Add Two Numbers]]></title>
     <url>%2F2019%2F11%2F25%2FLeetcode-Add-two-numbers%2F</url>
     <content type="text"><![CDATA[CodeProblem: https://leetcode.com/problems/add-two-numbers/ Insights avoid checking null input by creating dummy node at the start and placing it before the first digit deal with input with different digit lengths by if reaching the end of digit, setting next to None assign next node within the loop using a “current” header. Also advance the current header and two digit location together within the loop]]></content>
